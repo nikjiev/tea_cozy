@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -10,8 +9,7 @@ body {
   margin: 0;
 }
 
-/* Header Section */
-
+/* Header */
 header {
   align-items: center;
   position: fixed;
@@ -53,7 +51,6 @@ a {
   padding-top: 69px;
   width: 1200px;
   margin: auto;
-  z-index: 2;
 }
 
 #mission {
@@ -72,7 +69,7 @@ a {
   width: 1000px;
   height: 700px;
   margin: auto;
-
+  padding-top: 70px;
 }
 
 .item img {
@@ -86,6 +83,21 @@ a {
 #locations {
   background-image: url(./images/img-locations-background.jpg);
   height: 500px;
+  padding-top: 70px;
+
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px;
+    padding: 10px;
+}
+
+/* Contact */
+#contact {
+  height: 200px;
 }
 
 /* Footer */
